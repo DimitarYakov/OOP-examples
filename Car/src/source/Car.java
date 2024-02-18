@@ -5,6 +5,8 @@
  */
 package source;
 
+import java.util.Calendar;
+
 /**
  *
  * @author thanos
@@ -24,5 +26,10 @@ public class Car {
     
     public void show(){
         System.out.println("Car: " + brand + "" + model + "" + year);
+    }
+    
+    public int calculateAge() {
+        int currentYear = Calendar.getInstance().get(Calendar.YEAR);
+        return currentYear - year;
     }
 }

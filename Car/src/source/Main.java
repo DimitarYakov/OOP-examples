@@ -29,14 +29,18 @@ public class Main {
         }
         
         
-        Car car_info = new Car("String","String", 2000);
+        Car car_info = new Car(brand, model, year);
+        
         
         car_info.show();
-        
+        int calc_age = car_info.calculateAge();
+        System.out.println("Age of the car: " + calc_age + " years.");
         
         car = new Car();
         
         car.show();
+        
+        
     }
     
 }
