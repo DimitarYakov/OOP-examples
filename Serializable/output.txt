@@ -1,0 +1,9 @@
+Serialized data is saved in output.txt
+Serialized data is saved in output.txt
+Result: Drawing a circleResult: Drawing a circleResult: Drawing a circleResult: Drawing a circleResult: Drawing a circle
+Result: Drawing a circle
+
+Result: Drawing a circle
+
+Result: Drawing a circle
+Result: Drawing a circle
